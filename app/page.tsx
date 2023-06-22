@@ -7,7 +7,7 @@ export default function Home() {
       <span>Welcome to Mixtape</span>
         <Image src="https://placehold.co/600x400/png" width={600} height={200} alt={''} />
       
-      <iframe src="https://open.spotify.com/embed/playlist/6L8xX3Z0gHHCLdSLyef7lU?utm_source=generator&theme=0" width="100%" height="880" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe src="https://open.spotify.com/embed/playlist/6L8xX3Z0gHHCLdSLyef7lU?utm_source=generator&theme=0" width="100%" height="880" frameBorder="0" allowFullScreen={false} allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     </main>
   )
 }
